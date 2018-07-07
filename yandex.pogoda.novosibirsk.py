@@ -59,7 +59,6 @@ class Example(QWidget):
 		self.setGeometry(300, 300, 650, 300)
 		self.move(300, 300)
 		self.setWindowTitle('Погода.Новосибирск')
-		self.setWindowIcon(QIcon('sun.png'))
 		self.show()
 
 if __name__ == '__main__':
